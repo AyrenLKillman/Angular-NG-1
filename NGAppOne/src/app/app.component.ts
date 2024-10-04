@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'NGAppOne';
+  Name = 'Ayren';
+  articleInstance = new article();
+}
+
+export class article {
+  title: string = "SHE ATE MY BURGER AAAAAA";
+  content: string = "swaws";
+  isTechRelated: boolean = false
 }
